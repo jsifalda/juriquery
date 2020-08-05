@@ -1,1 +1,1 @@
-export const juriquery: (url: string, query?: string | Record<string, any>) => string
+export const join: (url: string, query?: string | Record<string, any>) => string

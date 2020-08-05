@@ -15,7 +15,7 @@ function encodeParams(data) {
   return ret.join('&')
 }
 
-export const juriquery = (url, query) => {
+export const join = (url, query) => {
   if (isPlainObject(query)) {
     query = encodeParams(query)
   }

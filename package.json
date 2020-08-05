@@ -1,6 +1,6 @@
 {
   "name": "juriquery",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Extra tiny lib for query object encoding (aka converts object into string ?query=1&name=value)",
   "main": "lib/index.js",
   "types": "src/index.d.ts",
