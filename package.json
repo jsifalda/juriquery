@@ -1,8 +1,9 @@
 {
   "name": "juriquery",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Extra tiny lib for query object encoding (aka converts object into string ?query=1&name=value)",
   "main": "lib/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
     "build": "rm -rf ./lib && ./node_modules/.bin/babel -e 0 ./src --out-dir ./lib"
